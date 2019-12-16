@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Regular.woff') format('woff'),
+    url('../fonts/TTNorms-Regular.eot'),
+    url('../fonts/TTNorms-Regular.eot#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'TT Norms', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  min-height: 500px;
+}
